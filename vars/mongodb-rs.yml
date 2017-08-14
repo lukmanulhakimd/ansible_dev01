@@ -1,0 +1,5 @@
+---
+mongodb_major_version: 3.2
+mongodb_specific_version: 3.2.16
+replSetName: dev01-cluster-1
+oplogSizeMB: 3000

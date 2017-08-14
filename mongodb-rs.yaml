@@ -1,0 +1,9 @@
+---
+- hosts: "{{hosts}}"
+  become: yes
+  gather_facts: yes
+  vars_files:
+    - vars/mongodb-rs.yml
+
+  roles:
+  - mongod
